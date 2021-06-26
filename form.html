@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ลงทะเบียน</title>
+</head>
+<body>
+    <h1 align="center">แบบฟอร์มลงทะเบียน</h1>    
+    <form action="">
+        <div>
+            <label for="firstname">ชื่อจริง</label>
+            <input type="text" name="fname" placeholder="ป้อนชื่อจริงของคุณ (ก-ฮ)">
+        </div>
+        <div>
+            <label for="lastname">นามสกุล</label>
+            <input type="text" name="lname" placeholder="ป้อนนามสกุล (ก-ฮ)" required>
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email" required >
+        </div>
+        <div>
+            <label for="password">pw</label>
+            <input type="password" name="pw" >
+        </div>
+        <div>
+            <label for="home">ที่อยู่</label>
+            <textarea name="" id="" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="email">อายุ</label>
+            <input type="number" name="email" min="0" >
+        </div>
+        <div>
+            <label for="email">hbd</label>
+            <input type="date" name="email" >
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="datetime-local" name="email" >
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="file" name="email" >
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="range" name="email" value="5" >
+        </div>
+        <div>
+            <label for="gg">ระดับ</label>
+            <select name="edu" id="">
+                <option value="ตรี">ตรี</option>
+                <option value="โท">โท</option>
+                <option value="เอก">เอก</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit"  value="บันทึก">
+            <button type="submit">save</button>
+        </div>
+    </form>
+    <a href="index.html">กลับหน้า index</a>
+</body>
+</html>
